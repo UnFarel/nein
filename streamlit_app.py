@@ -6,7 +6,7 @@ import io
 import matplotlib.pyplot as plt
 from streamlit_drawable_canvas import st_canvas
 
-API_URL = "http://0.0.0.0:8000/predict"
+API_URL = "https://nein.onrender.com/predict"
 
 st.set_page_config(page_title="Image Classifier", layout="centered")
 
@@ -79,14 +79,7 @@ if image is not None:
             st.pyplot(fig)
         else:
             st.error("Ошибка при обращении к API.")
-=======
-import streamlit as st
-import numpy as np
-from PIL import Image
-import requests
-import io
-import matplotlib.pyplot as plt
-from streamlit_drawable_canvas import st_canvas
+== == == =
 
 API_URL = "http://localhost:8000/predict"
 
