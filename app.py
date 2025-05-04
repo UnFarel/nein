@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 from tensorflow.keras.models import load_model
@@ -94,4 +93,3 @@ async def predict_image(file: UploadFile = File(...)):
         })
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": str(e)})
->>>>>>> 1e3f82754b3b6c91484da8ead6777f3d10241d0a
