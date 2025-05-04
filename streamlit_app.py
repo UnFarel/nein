@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -162,4 +161,3 @@ if image is not None:
             st.pyplot(fig)
         else:
             st.error("Ошибка при обращении к API.")
->>>>>>> 1e3f82754b3b6c91484da8ead6777f3d10241d0a
